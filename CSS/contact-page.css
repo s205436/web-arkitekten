@@ -7,8 +7,22 @@
     flex-direction: column;
 }
 
-.skill-heading-container{
-    margin-bottom: 74px;
+.contact-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-heading-container{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: -10px;
+}
+
+#contact-intro-text{
+    font-size: 1.3em;
+    padding-bottom: 50px;
+    width: 80%;
 }
 
 .contact-form-container{
@@ -66,7 +80,7 @@
     height: 100%;
     width: 47.5vw;
     min-height: 150px;
-    min-width: 25vw;
+    min-width: 47.7vw;
     max-height: 400px;
     max-width: 47.7vw;
     margin-left: 40px;

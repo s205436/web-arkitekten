@@ -10,7 +10,7 @@
 .skill-heading-container{
     display: flex;
     flex-direction: row;
-    margin-bottom: 100px;
+    padding-bottom: 130px;
 }
 
 .orange{
