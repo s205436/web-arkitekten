@@ -34,7 +34,7 @@
     background: #3E4D6A;
     width: 60%;
     border-radius: 25px;
-    padding-right: 2%;
+    padding-right: 3%;
 }
 
 .contact-page-container form{
@@ -76,13 +76,19 @@
       border: 1px solid #faa658;
   }
 
+  .message{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
 #text-area{
     height: 100%;
-    width: 47.5vw;
     min-height: 150px;
-    min-width: 47.7vw;
     max-height: 400px;
-    max-width: 47.7vw;
+    min-width: 48vw;
+    max-width: 48vw;
     margin-left: 40px;
     outline: 0;
     padding: 12px 18px;
@@ -100,7 +106,7 @@
     text-align: center;
     justify-content: end;
     align-items: center;
-    width: 98%;
+    width: 100%;
     padding-bottom: 5px;
 }
 
